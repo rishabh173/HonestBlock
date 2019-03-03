@@ -5,7 +5,7 @@ html,body{
 
 }
 .cover{
-	background: url('sample/ban1.png') center no-repeat;
+	background: url('ban1.png') center no-repeat;
 
 	background-size: cover;
 	height: 100%;
