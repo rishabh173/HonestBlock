@@ -38,3 +38,7 @@
     -ms-user-select: none;
     user-select: none;
 }
+nav.bg-light{
+  background-color: rgba(0,0,0,0.2)!important;
+  padding: 3px;
+}
