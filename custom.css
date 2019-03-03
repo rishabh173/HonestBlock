@@ -18,27 +18,40 @@
    font-weight:bold;
 }
 
-.btn{
-  display: inline-block;
-    margin-bottom: 0;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    background: black;
-    background-image: none;
-    border: 1px solid transparent;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    border-radius: 4px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+input{
+  background: red;
 }
 nav.bg-light{
   background-color: rgba(0,0,0,0.2)!important;
   padding: 3px;
+}
+
+#submitbutton{
+ 
+  
+}
+.navbar-nav .nav-link {
+    padding-right: 15px;
+/*    padding-left: 25px;
+*/}
+.nav-link {
+    display: block;
+    padding: 10px 25px;
+    font-size: 14px;
+}
+li{
+/*  padding-left: 9px;
+*/  padding-right: 18px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+input[type="submit" i]{
+  background-color:lightgray;
+  height: 35px;
+  line-height: 10px;
+  border-radius: 4px;
+  margin-left: -3px;
+  width: 70px;
+  margin-right: 10px;
 }
