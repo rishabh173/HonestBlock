@@ -18,40 +18,4 @@
    font-weight:bold;
 }
 
-input{
-  background: red;
-}
-nav.bg-light{
-  background-color: rgba(0,0,0,0.2)!important;
-  padding: 3px;
-}
 
-#submitbutton{
- 
-  
-}
-.navbar-nav .nav-link {
-    padding-right: 15px;
-/*    padding-left: 25px;
-*/}
-.nav-link {
-    display: block;
-    padding: 10px 25px;
-    font-size: 14px;
-}
-li{
-/*  padding-left: 9px;
-*/  padding-right: 18px;
-}
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-}
-input[type="submit" i]{
-  background-color:lightgray;
-  height: 35px;
-  line-height: 10px;
-  border-radius: 4px;
-  margin-left: -3px;
-  width: 70px;
-  margin-right: 10px;
-}
