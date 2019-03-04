@@ -217,7 +217,9 @@ footer span{
 	position: absolute;
 	right: 0;
 }
-
+ .allinone{
+    padding-top:5%;
+  }
 @media only screen and (max-width: 568px){
 	.quote h1{
 		font-size: 50px;
@@ -228,6 +230,9 @@ footer span{
 	section{
 		padding:20px;
 	}
+	.allinone{
+    		padding-top:15%;
+  	}
 }
 
 .preloader{
