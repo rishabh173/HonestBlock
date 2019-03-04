@@ -6,8 +6,8 @@ html,body{
 }
 .cover{
 	background: url('image3Text.png') top no-repeat;
-	background-position: 0% 30%;
-	background-size: cover;
+	
+	background-size: 100% 100%;
 	height: 100%;
 	display: table;
 	width: 100%;
