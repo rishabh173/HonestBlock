@@ -222,7 +222,10 @@ footer span{
 	}
 	.quote h3{
 	font-size: 30px;
-}
+	}
+	section{
+		padding:20px;
+	}
 }
 
 .preloader{
