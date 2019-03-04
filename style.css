@@ -48,34 +48,37 @@ html,body{
 */	text-align: center;
 	color: white; 
 }
+#team h2{
+	padding: 30px;
+}
 
 #team p{
 	text-align: center;
 	color: white;
 	padding-top: 15px;
 }
-.col-lg-4{
+/* .col-lg-4{
 	margin-bottom: 30px;
-	/*border: solid black;*/
+	border: solid black;
 	border-right: solid 2px transparent;
 	border-image: linear-gradient(to bottom, rgba(0,0,0,0) 10%,rgba(255,255,255,0.5) 30%,rgba(255,255,255,0.5) 45%,rgba(0,0,0,0) 75%);
 	border-image-slice: 1;
 
-}
-.col-lg-4:after {
+} */
+/* .col-lg-4:after {
     content: '';
     position: absolute;
     bottom: 0px;
     left: 15%;
     width: 70%;
     border-bottom: 1px solid rgba(255,255,255,0.7);
-}
-.no-bl{
+} */
+/* .no-bl{
 	border-right: none;
 }
 .no-bb:after{
 	border-bottom: none;
-}
+} */
 /*.navbar-form input{
 	margin: 0;
 }
