@@ -22,10 +22,7 @@ html,body{
 	vertical-align: middle;
 	font-family: Century Gothic;
 }
-.navbar{
-	/*padding: 30px;*/
-	//box-sizing: border-box;
-}
+/
  .tagline{
  	display: block;
  	/*margin-left: 30px;*/
@@ -79,11 +76,11 @@ html,body{
 .no-bb:after{
 	border-bottom: none;
 }
-.navbar-form input{
+/*.navbar-form input{
 	margin: 0;
 }
 .navbar-default{
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.6);
 	border: none;
 }
 .navbar-default .navbar-nav>li>a:hover{
@@ -91,12 +88,12 @@ html,body{
 }
 .navbar{
 	padding: 0px;
-}
+}*/
 nav.bg-light{
-	background-color: rgba(0,0,0,0.2)!important;
+	background-color: rgba(0,0,0,0.6)!important;
 	padding: 0px;
 }
-/*.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link{
 	color: white;
 	//font-size: 18px;
 	font-family: Century Gothic;
@@ -116,7 +113,7 @@ nav.bg-light{
 }
 .navbar-light .navbar-toggler-icon{
 	background: url(TOGGLE.png);
-}*/
+}
 section{
 	padding: 80px;
 	display: table;
@@ -131,11 +128,11 @@ section{
 
 
 }
-.tableCell{
+/*.tableCell{
 	padding-top: 50px;
 	display: table-cell;
 	vertical-align: middle;
-}
+}*/
 #about h1{
 	text-align: center;
 	color: white;
@@ -165,7 +162,7 @@ section{
 	color: grey;
 	
 }
-#media{
+/*#media{
 	//display: table;
 	//width: 100%;
 	background: url('what.jpeg') bottom no-repeat;
@@ -186,7 +183,7 @@ section{
 	text-align: center;
 	color: white;
 	background-attachment: fixed;
-}
+}*/
 
 input,textarea,button{
 	margin: 10px;
@@ -439,18 +436,3 @@ footer span{
 }
 
 
-nav form input .btn{
-	background: #e6e6e6!important;
-	height: 40px;
-	font-size: 10px;
-}
-
-
-@media (min-width: 768px){
-	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: -20px;
-}
-}
-.navbar-brand{
-	padding: 5px;
-}
