@@ -353,53 +353,63 @@ footer span{
 	text-align: center;
 
 }
-.card{
+.thecard{
   position: relative;
-  height: 375px;
   width: 250px;
+  height: 360px;
+  /*top: 0;
+  left: 0;*/
+  /*width: 100%;
+  height: 100%;*/
+  border-radius: 10px;
   transform-style: preserve-3d;
+  transition:  1s ;
+  -webkit-transform: rotateX(0deg);
   perspective: 600px;
-  transition: 0.5s;
   margin: 20px auto;
 
-  
 
+  
 }
-.card .front{
+
+/* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+ .thefront{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: rotateX(0deg);
-  transition: 0.5s;
-  
-  
-
-
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  /*background: #ffc728;
+  color: #000;*/
+  transition:  1s
 }
-.card:hover .front{
-  -webkit-transform: rotateX(-180deg);
-
+.thecard:hover .thefront{
+  transform: rotateX(-180deg);
 }
-.card .back{
+
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+.theback{
   position: absolute;
-  
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: rotateX(180deg);
-  transition: 0.5s;
-
-    
-
-
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: black;
+  color: #333;
+  text-align: center;
+  transform: rotateX(180deg);
+  transition:  1s
 }
-.card .back:before{
+.thecard .theback:before{
   content: '';
   position: absolute;
 /*  top: 20px;
@@ -409,10 +419,12 @@ footer span{
   background: rgba(255,255,255,0.1);
 
 }
-.card:hover .back{
+.thecard:hover .theback{
   -webkit-transform: rotateX(0deg);
 }
-.card .back .details{
+
+
+.thecard .theback .details{
   position: absolute;
   top:50%;
   transform: translateY(-50%);
@@ -426,7 +438,7 @@ footer span{
   margin: 0;
 
 }
-.card .back .details h2 span{
+.thecard .theback .details h2 span{
   font-size: 12px;
   margin-top: 0px;
 }
@@ -446,6 +458,4 @@ footer span{
 }
 .socialIcons a:hover{
   background: #e91e63;
-}
-
-
+}	
